@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE registo-de-projeto SYSTEM "tp2.dtd">
+<registo-de-projeto>
+    <título-projeto>Project Record</título-projeto>
+    <cabeçalho>
+        <key-name>MIEI_DWeb_2019_2020</key-name>
+        <title>Report</title>
+        <sub-title>TPC - 2</sub-title>
+        <datas>
+            <data-inicial>24/09/2019</data-inicial>
+            <data-final>30/09/2019</data-final>
+        </datas>
+        <supervisor href="http://www.di.uminho.pt/~jcr">José Carlos Ramalho</supervisor>
+    </cabeçalho>
+    <workteam>
+        <elemento-equipa>
+            <nome>Mariana Pereira Fernandes</nome>
+            <número>A81728</número>
+            <email>a81728@alunos.uminho.pt</email>
+        </elemento-equipa>
+    </workteam>
+    <abstract>
+        <paragrafos>
+            <p>O trabalho proposto consistia na definição de um DTD que representasse o conteúdo de uma página HTML semelhante a uma ficha de projeto</p>
+            <p>A página de exemplo está separada em 5 seções e escolheu-se representar a estrutura no DTD igualmente separada em 5 partes.</p>
+            <p>No cabeçalho temos a informação sobre o projeto, como o título, o supervisor, a data de início, e ainda, opcionamente, podemos encontrar um sub-titulo e uma data de fim </p>
+            <p>De seguida, estão representados o(s) autor(es) do trabalho, estando presente obrigatóriamente o nome, número e email, e, facultativamente, um ou mais links.</p>
+            <p>A próxima seção é a <i>abstract</i> onde temos um conjunto de parágrafos, e dentro dos mesmos ter texto em <i>itálico</i>, <b>negrito</b> ou links</p>
+            <p>Finalmente, em deliverables, temos parágrafos e links para anexar documentos.</p>
+        </paragrafos>
+    </abstract>
+    <deliverables ><p>Link para o repositório da UC</p><link href="https://github.com/mariana-kikloki/dweb2019"></link></deliverables>
+</registo-de-projeto>
