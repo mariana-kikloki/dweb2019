@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pr SYSTEM "pr.dtd">
+<pr>
+    <metadata>
+        <keyname>MIEI_DWeb_2019_2020</keyname>
+        <title>eXtensible Stylesheet Language Transformations</title>
+        <subtitle>TP3</subtitle>
+        <supervisor>José Carlos Ramalho</supervisor>
+        <bdate>01/10/2019</bdate>
+        <edate>08/09/2019</edate>
+    </metadata>
+    <workteam>
+        <worker>
+            <identifier>A81278</identifier>
+            <name>Mariana Pereira Fernandes</name>
+            <email>a81728@alunos.uminho.pt</email>
+        </worker>
+    </workteam>
+    <abstract>
+        <p>Para este <b>trabalho</b> foi <i>pedido</i> que se <u>gerasse</u> uma página HTML a partir do XML com o <b><i><u>Project Record</u></i></b></p>
+ 
+    </abstract>
+    <deliverables>
+        <deliverable path="www.google.pt">Pesquisa</deliverable>
+    </deliverables>
+</pr>
