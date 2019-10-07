@@ -61,18 +61,20 @@
             </xsl:for-each>
         </ol>
     </xsl:template>
-    <xsl:template match="abstract/p">
+    <xsl:template match="abstract">
         <hr /><hr />
         <h3>Abstract</h3>
         <xsl:copy-of select="."></xsl:copy-of>
     </xsl:template>
     <xsl:template match="deliverables">
         <hr /><hr />
-        <h3>Deliverables</h3>
+        <h3> Deliverables</h3>
+        <ul>
         <xsl:for-each select="deliverable">
-            <li>
-                <a href="{.}"><xsl:value-of select="@path" /></a>
-            </li>
+            <li><a href="{@path}"><xsl:value-of select="."/></a></li>
         </xsl:for-each>
+        </ul>
+        <hr/>
     </xsl:template>
+    
 </xsl:stylesheet>

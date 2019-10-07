@@ -17,8 +17,8 @@
         </worker>
     </workteam>
     <abstract>
-        <p>Para este <b>trabalho</b> foi <i>pedido</i> que se <u>gerasse</u> uma página HTML a partir do XML com o <b><i><u>Project Record</u></i></b></p>
- 
+        <p>Para este <b>trabalho</b> foi <i>pedido</i> que se <u>gerasse</u> uma página HTML a partir do XML <b><i><u>Project Record</u></i></b></p>
+        <p>O proposto para o XML dos arquiossítios era semelhante, mas desta vez o <i>website</i> deve ser gerado automáticamente</p>
     </abstract>
     <deliverables>
         <deliverable path="www.google.pt">Pesquisa</deliverable>
