@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pr SYSTEM "pr.dtd">
+<pr>
+    <metadata>
+        <keyname>MIEI_DWeb_2019_2020</keyname>
+        <title>XML to HTML</title>
+        <subtitle>TP4</subtitle>
+        <supervisor>José Carlos Ramalho</supervisor>
+        <bdate>08/10/2019</bdate>
+        <edate>14/10/2019</edate>
+    </metadata>
+    <workteam>
+        <worker>
+            <identifier>A81278</identifier>
+            <name>Mariana Pereira Fernandes</name>
+            <email>a81728@alunos.uminho.pt</email>
+        </worker>
+    </workteam>
+    <abstract>
+    <p>Neste trabalho era pedido que se gerasse automaticamente um <i>website</i> para o XML dos arqueossítios.
+    O professor forneceu o código que "parte" o XML em questão em vários ficheiros XML, cada um com um arqueossítio.
+    Providenciou também um XSL que transforma o XML de um arqueossítio numa página HTML.
+    </p>
+    <p>
+    O XSL é referido no próprio XML, para que, quando o servidor serve o XML pedido, envie também o XSL para que o browser o use como stylesheet, gerando assim a página HTML.
+    </p>
+    </abstract>
+    <deliverables>
+        <deliverable path="www.google.pt">Pesquisa</deliverable>
+    </deliverables>
+</pr>
