@@ -23,9 +23,13 @@
     </p>
     <p>
     O XSL é referido no próprio XML, para que, quando o servidor serve o XML pedido, envie também o XSL para que o browser o use como stylesheet, gerando assim a página HTML.
+    Os pedidos são feitos a um servidor Node, que corre na porta 7777.
     </p>
     </abstract>
     <deliverables>
-        <deliverable path="www.google.pt">Pesquisa</deliverable>
+        <deliverable path="https://github.com/mariana-kikloki/dweb2019/blob/master/tp4/pr.html">Project Record</deliverable>
+        <deliverable path="https://github.com/mariana-kikloki/dweb2019/blob/master/tp4/server.js">Servidor Node</deliverable>
+        <deliverable path="https://github.com/mariana-kikloki/dweb2019/blob/master/tp4/xml-split.xsl">XSL para "partir" os arqueossítios</deliverable>
+        <deliverable path="https://github.com/mariana-kikloki/dweb2019/blob/master/tp4/arq2html.xsl">XSL para gerar o HTML</deliverable>
     </deliverables>
 </pr>
