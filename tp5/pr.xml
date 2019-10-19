@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pr SYSTEM "pr.dtd">
+<pr>
+    <metadata>
+        <keyname>MIEI_DWeb_2019_2020</keyname>
+        <title>Node Todo List</title>
+        <subtitle>TP5</subtitle>
+        <supervisor>José Carlos Ramalho</supervisor>
+        <bdate>15/10/2019</bdate>
+        <edate>21/10/2019</edate>
+    </metadata>
+    <workteam>
+        <worker>
+            <identifier>A81278</identifier>
+            <name>Mariana Pereira Fernandes</name>
+            <email>a81728@alunos.uminho.pt</email>
+        </worker>
+    </workteam>
+    <abstract>
+    <p>O objetivo deste TP era criar uma lista de tarefas (one-page), que permita adicionar e remover tarefas, ver a lista completa, e deve responder a todos os pedidos
+    </p>
+    <p>
+    Foi desenvolvido um servidor Node, que responde a todos os pedidos, como requerido, devolvendo páginas de erro, a lista de tarefas ou efetuando operações como adição e remoção de elementos da lista. 
+    </p>
+    <p>
+    Usando templates, foi criado um <i>front-end</i> para apresentar o resultado destes mesmos pedidos.
+    </p>
+    </abstract>
+    <deliverables>
+        <deliverable path="https://github.com/mariana-kikloki/dweb2019/blob/master/tp5/pr.html">Project Record</deliverable>
+        <deliverable path="https://github.com/mariana-kikloki/dweb2019/blob/master/tp5/server.js">Servidor Node</deliverable>
+          </deliverables>
+</pr>
