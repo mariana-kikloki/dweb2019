@@ -1,0 +1,47 @@
+extends layout
+
+block content
+  .w3-container
+    h1 Gestão de um Arquivo Sonoro
+    header.w3-container.w3-teal
+      h3 Adicionar Música
+      .w3-container
+        form.w3-container(action='/new' method='POST')
+          label
+            b Músico
+          input.w3-input.w3-border(type='text' name='musico')
+          label
+            b Título 
+          input.w3-input.w3-border(type='text' name='tit' required)
+          label
+            b Local 
+          input.w3-input.w3-border(type='text' name='local')
+          label
+            b Província 
+          input.w3-input.w3-border(type='text' name='prov')
+          br
+          input.w3-btn.w3-blue-grey(type='submit' value='Enviar')
+        br
+      .w3-card-4
+        table.w3-table-all(style="color:#000")
+          tr
+            th provincia
+            th local
+            th título
+            th músico
+            th duração
+            th apagar
+            each m in arq
+              tr
+                td= m.prov
+                td= m.local
+                td= m.tit
+                td= m.musico
+                td= m.duracao
+                td
+                  button.w3-button.w3-circle.w3-blue-grey(onclick="apagaItem('" + m.id + "')") Apagar
+                  button.w3-button.w3-circle.w3-blue-grey
+                    a(href=`/arq/`+m.id) Ver
+    footer.w3-container.w3-teal
+            address Gerado por Lista de Compras App::
+        

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pr SYSTEM "pr.dtd">
+<pr>
+    <metadata>
+        <keyname>MIEI_DWeb_2019_2020</keyname>
+        <title>CRUD Arquivo Sonoro</title>
+        <subtitle>TP6</subtitle>
+        <supervisor>José Carlos Ramalho</supervisor>
+        <bdate>15/10/2019</bdate>
+        <edate>21/10/2019</edate>
+    </metadata>
+    <workteam>
+        <worker>
+            <identifier>A81278</identifier>
+            <name>Mariana Pereira Fernandes</name>
+            <email>a81728@alunos.uminho.pt</email>
+        </worker>
+    </workteam>
+    <abstract>
+    <p>Neste TP foi desenvolvida uma plataforma CRUD (create, read, update, delete) com o objetivo de gerir o arquivo sonoro disponibilizado</p>
+    <p>
+    Em primeiro lugar, converteu-se arquivo sonoro de XML para JSON, providênciando um ID para cada música, por forma a possibilitar as operações de apagar e modificar.
+    </p>
+    <p>
+    De seguida, procedeu-se à construção do CRUD, usando o <b>express</b> para facilitar o <i>handle</i> dos pedidos.
+    </p>
+    <p>Para desenhar o front-end, utilizaram-se <i>templates Pug</i>, que são renderizados no servidor e enviados para o cliente quando é feito um pedido.</p>
+    </abstract>
+    <deliverables>
+        <deliverable path="https://github.com/mariana-kikloki/dweb2019/blob/master/tp6/pr.html">Project Record</deliverable>
+        <deliverable path="https://github.com/mariana-kikloki/dweb2019/blob/master/tp6/app.js">Servidor Node</deliverable>
+        <deliverable path="https://github.com/mariana-kikloki/dweb2019/blob/master/tp6/arqson.json">Arquivo Sonoro</deliverable>
+          </deliverables>
+</pr>
