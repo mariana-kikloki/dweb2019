@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pr SYSTEM "pr.dtd">
+<pr>
+    <metadata>
+        <keyname>MIEI_DWeb_2019_2020</keyname>
+        <title>CRUD Arquivo Cinematográfico</title>
+        <subtitle>TP7</subtitle>
+        <supervisor>José Carlos Ramalho</supervisor>
+        <bdate>29/10/2019</bdate>
+        <edate>04/11/2019</edate>
+    </metadata>
+    <workteam>
+        <worker>
+            <identifier>A81278</identifier>
+            <name>Mariana Pereira Fernandes</name>
+            <email>a81728@alunos.uminho.pt</email>
+        </worker>
+    </workteam>
+    <abstract>
+    <p>Neste TP foi desenvolvida uma plataforma CRUD (create, read, update, delete) com o objetivo de gerir um arquivo de filmes</p>
+    <p>Em primeiro lugar, foi necessário instalar o MongoDB, pois neste TP os dados passam a ser guardados numa <i>document store</i></p>
+    <p>
+    De seguida, procedeu-se à construção do CRUD, usando o <b>express</b> para facilitar o <i>handle</i> dos pedidos.
+    </p>
+    <p>Para desenhar o front-end, utilizaram-se <i>templates Pug</i>, que são renderizados no servidor e enviados para o cliente quando é feito um pedido.</p>
+    <p>Está também incluído um ficheiro com queries Mongo. </p>
+    </abstract>
+    <deliverables>
+        <deliverable path="https://github.com/mariana-kikloki/dweb2019/blob/master/tp7/pr.html">Project Record</deliverable>
+        <deliverable path="https://github.com/mariana-kikloki/dweb2019/blob/master/tp7/queries.txt">Queries Mongo</deliverable>
+        <deliverable path="https://github.com/mariana-kikloki/dweb2019/blob/master/tp7/servidor">Servidor</deliverable>
+          </deliverables>
+</pr>
