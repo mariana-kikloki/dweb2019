@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pr SYSTEM "pr.dtd">
+<pr>
+    <metadata>
+        <keyname>MIEI_DWeb_2019_2020</keyname>
+        <title>CRUD Arquivo Cinematográfico</title>
+        <subtitle>TP8</subtitle>
+        <supervisor>José Carlos Ramalho</supervisor>
+        <bdate>05/11/2019</bdate>
+        <edate>11/11/2019</edate>
+    </metadata>
+    <workteam>
+        <worker>
+            <identifier>A81278</identifier>
+            <name>Mariana Pereira Fernandes</name>
+            <email>a81728@alunos.uminho.pt</email>
+        </worker>
+    </workteam>
+    <abstract>
+    <p>Foi pedido que se desenvolvesse uma API para consultar uma <i>document store</i> sobre compositores, que devolvesse os resultados em <b>JSON</b></p>
+    <p>Para testar a mesma, fez-se uso da ferramenta <b>Postman</b> que permite enviar pedidos <b>http</b> e mostra a resposta recebida.</p>
+    </abstract>
+    <deliverables>
+        <deliverable path="https://github.com/mariana-kikloki/dweb2019/blob/master/tp8/pr.html">Project Record</deliverable>
+        <deliverable path="https://github.com/mariana-kikloki/dweb2019/blob/master/tp8/servidor">Servidor</deliverable>
+          </deliverables>
+</pr>
