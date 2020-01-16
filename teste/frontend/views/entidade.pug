@@ -25,11 +25,16 @@ block content
                 th Id
                 th Sigla
                 th Designacao
+                th Ação
             each t in tipologias
                 tr
                     td=t.id
                     td=t.sigla
                     td=t.designacao
+                    td 
+                        button.w3-button.w3-circle.w3-blue-grey 
+                            a(href=`http://clav.dglab.gov.pt/tipologias/`+t.id) Ver
+
         h3 Intervençoes - Dono
         if dono.length
             table.w3-table-all.w3-text-black

@@ -17,18 +17,21 @@
         </worker>
     </workteam>
     <abstract>
-    <p>Neste TP foi desenvolvida uma plataforma CRUD (create, read, update, delete) com o objetivo de gerir o arquivo sonoro disponibilizado</p>
-    <p>
-    Em primeiro lugar, converteu-se arquivo sonoro de XML para JSON, providênciando um ID para cada música, por forma a possibilitar as operações de apagar e modificar.
-    </p>
-    <p>
-    De seguida, procedeu-se à construção do CRUD, usando o <b>express</b> para facilitar o <i>handle</i> dos pedidos.
-    </p>
-    <p>Para desenhar o front-end, utilizaram-se <i>templates Pug</i>, que são renderizados no servidor e enviados para o cliente quando é feito um pedido.</p>
+    <p><b>API:</b></p>
+    <p>Import: mongoimport -d obras -c obras --jsonArray arquivo.json</p>
+    <p>Foi necessário converter o XML fornecido em JSON, e retirar os primeiros elementos, para obter um <i>array</i> de obras</p>
+    <p>Para a app funcionar, é preciso importar o json com o comando indicado acima, assumindo que previamente é criada a database e respetiva collection com o nome "obras"</p>
+    <p>Recorrendo ao npm para instalar as dependências (npm i) e correr o servidor (npm start), a app fica a funcionar no localhost, porta 3000</p>
+    <p><b>CLAV</b></p>
+    <p><b>Nº de Entidades: </b> 546</p>
+    <p><b>Nº de Tipologias da ACT: </b> 2, AP, e ASF</p>
+    <p><b>Processos da ANSR como Iniciador: </b> Registo Nacional de Condutores</p>
+    <p><b>Processos do Colégio Militar, como dono: </b> Realização de atividades de formação e treino animal</p>
+    <p>Aceder a: localhost:3000/entidades para a lista completa das entidades presentes no CLAV</p>
     </abstract>
     <deliverables>
-        <deliverable path="https://github.com/mariana-kikloki/dweb2019/blob/master/tp6/pr.html">Project Record</deliverable>
-        <deliverable path="https://github.com/mariana-kikloki/dweb2019/blob/master/tp6/app.js">Servidor Node</deliverable>
-        <deliverable path="https://github.com/mariana-kikloki/dweb2019/blob/master/tp6/arqson.json">Arquivo Sonoro</deliverable>
+        <deliverable path="https://github.com/mariana-kikloki/dweb2019/tree/master/teste/pr.html">Project Record</deliverable>
+        <deliverable path="https://github.com/mariana-kikloki/dweb2019/tree/master/teste/backend">API</deliverable>
+        <deliverable path="https://github.com/mariana-kikloki/dweb2019/tree/master/teste/backend">Frontend CLAV</deliverable>
           </deliverables>
 </pr>
