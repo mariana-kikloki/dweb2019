@@ -1,0 +1,69 @@
+extends layout
+
+block content
+    .w3-container
+        h1=entidade.designacao
+        button.w3-button.w3-circle.w3-blue-grey
+            a(href=`/entidades`) Voltar
+        br
+        br
+        table.w3-table-all.w3-text-black
+            tr
+                th Estado
+                th Sigla
+                th SIOE
+                th Internacional
+            tr
+                td=entidade.estado
+                td=entidade.sigla
+                td=entidade.sioe
+                td=entidade.internacional
+        br
+        h3 Tipologias
+        table.w3-table-all.w3-text-black
+            tr
+                th Id
+                th Sigla
+                th Designacao
+            each t in tipologias
+                tr
+                    td=t.id
+                    td=t.sigla
+                    td=t.designacao
+        h3 Intervençoes - Dono
+        if dono.length
+            table.w3-table-all.w3-text-black
+                tr
+                    th Código
+                    th Título
+                    th Ações
+                    
+                each d in dono
+                    tr
+                        td=d.codigo
+                        td=d.titulo
+                        td 
+                            button.w3-button.w3-circle.w3-blue-grey 
+                                a(href=`http://clav.dglab.gov.pt/classes/consultar/c`+d.codigo) Ver 
+        else
+            p Não tem processos onde é dono
+        h3 Intervençoes - Participante
+        if participante.length
+            table.w3-table-all.w3-text-black
+                tr
+                    th Tipo de Participação
+                    th Código
+                    th Título
+                    th Ações
+                    
+                each p in participante
+                    tr
+                        td=p.tipoPar
+                        td=p.codigo
+                        td=p.titulo
+                        td 
+                            button.w3-button.w3-circle.w3-blue-grey 
+                                a(href=`http://clav.dglab.gov.pt/classes/consultar/c`+p.codigo) Ver
+                       
+        else
+            p Não tem processos onde é participante

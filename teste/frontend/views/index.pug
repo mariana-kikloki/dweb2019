@@ -1,0 +1,19 @@
+extends layout
+
+block content
+  .w3-container
+    h1 Lista de Entidades
+    table.w3-table-all.w3-text-black
+      tr
+        th Sigla
+        th Designação
+        th Internacional
+        th Ações
+      each e in lista
+        tr
+          td=e.sigla
+          td=e.designacao
+          td=e.internacional
+          td
+            button.w3-button.w3-circle.w3-blue-grey
+                              a(href=`/entidades/`+e.id) Ver
